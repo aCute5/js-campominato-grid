@@ -46,12 +46,18 @@ nav{
     margin: auto;
 }
 .campominato{
-    background-color: #7FFFD4;
+    background-color: salmon
 }
 .cells{
     width: calc(100% / 10);
     height: calc(100% / 10);
     border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: gold;
+
     /* display: none; */
     
 }
@@ -59,6 +65,13 @@ nav{
     width: calc(100% / 9);
     height: calc(100% / 9);
     border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background-color: purple;
+    color: gold;
+
     /* display: none; */
     
 }
@@ -66,6 +79,13 @@ nav{
     width: calc(100% / 7);
     height: calc(100% / 7);
     border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background-color: green;
+    color: gold;
+
     /* display: none; */
     
 }
