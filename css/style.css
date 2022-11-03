@@ -39,14 +39,20 @@ nav{
 
 }
 .grid{
-    width: 800px;
-    height: 800px;
+    width: 700px;
+    height: 700px;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+    display: none;
 }
 .campominato{
-    background-color: salmon
+    background-color: salmon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+   
 }
 .cells{
     width: calc(100% / 10);
@@ -93,5 +99,8 @@ nav{
     background-color: rgb(255, 0, 0);
 }
 .show{
-    display: block;
+    display: flex;
+}
+.hidden{
+    display: none;
 }
