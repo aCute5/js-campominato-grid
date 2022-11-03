@@ -50,13 +50,13 @@ eleBtn.addEventListener("click", function (){
             }) 
         }   
     }
-   eleRst.addEventListener("click", function (){
-    eleGrid.classList.remove("show")
-    eleTitle.classList.remove("hidden")
-   })
+   
 
 
 })
-
+eleRst.addEventListener("click", function (){
+    eleGrid.classList.remove("show")
+    eleTitle.classList.remove("hidden")
+})
 
 
